@@ -31,7 +31,7 @@ while(True):
                id="person"
                cv2.imwrite("detected.jpg",gray[y:y+h,x:x+w])
           elif(id==2):
-               id="Mehwish"
+               id="AWAIS"
                cv2.imwrite("detected.jpg",gray[y:y+h,x:x+w])
           elif(id==3):
                id="person1"
@@ -43,9 +43,9 @@ while(True):
                id="Tayyab"
                cv2.imwrite("detected.jpg",gray[y:y+h,x:x+w])
           elif(id==6):
-               id="Atif_Ikram"
+               id="Atif"
           elif(id==7):
-               id="Atif Ikram"
+               id="Atif"
                cv2.imwrite("detected.jpg",gray[y:y+h,x:x+w])
           cv2.putText(im,str(id),(x,y+h),font,0.55,(0,255,0),2)
      cv2.imshow("Frame",im);
